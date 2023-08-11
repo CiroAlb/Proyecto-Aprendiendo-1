@@ -1,0 +1,26 @@
+.post-container {
+  width: 100%;
+  max-width: 800px; /* Puedes ajustar el ancho máximo según tus necesidades */
+  margin: 10px auto; /* Margen para centrar el componente y darle espacio a los bordes */
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.post-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.post-name {
+  font-weight: bold;
+  font-size: 1.2em ; /* Tamaño de fuente ligeramente más grande */
+}
+
+.post-content {
+  margin-top: 10px;
+}
+
+.post-text {
+  line-height: 1.5;
+}

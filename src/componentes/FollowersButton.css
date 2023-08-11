@@ -1,0 +1,33 @@
+.followers-button {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #ffffff; /* Fondo naranja */
+  border: 1px solid #c0c0c0; /* Borde grisáceo */
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.followers-button:hover {
+  background-color: #ffffff; /* Fondo gris al pasar el cursor */
+}
+
+.followers-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  color: #c0c0c0;
+}
+
+.fi.fi-rr-users-alt:before {
+  content: '\f007';
+  font-family: 'Font Awesome 5 Free';
+}
+
+.followers-count {
+  border-left: 2px solid #c0c0c0; /* Borde izquierdo grisáceo */
+  padding-left: 8px;
+  color: #c0c0c0; /* Color del borde */
+}

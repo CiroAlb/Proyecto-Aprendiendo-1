@@ -1,0 +1,18 @@
+.nombre-verificado {
+    display: flex;
+    align-items: center;
+  }
+  
+  .name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #000000;
+    margin-right: 8px;
+  }
+  
+  .verified-icon {
+    font-size: 1.2rem;
+    color:#ff5100;
+  }
+  

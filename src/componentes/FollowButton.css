@@ -1,0 +1,30 @@
+.follow-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: none;
+  background-color: #f7941d; /* Fondo naranja */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.following {
+  background-color: #cfcfcf;
+  color: #424242;
+} 
+
+.following i {
+  margin-right: 5px;
+}
+
+.following span {
+  font-weight: normal;
+}
+
+/* Estilos para el ícono (FontAwesome) */
+.follow-button i {
+  margin-right: 5px;
+}

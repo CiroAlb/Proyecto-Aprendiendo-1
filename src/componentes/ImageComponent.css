@@ -1,0 +1,13 @@
+/* Agrega aquí los estilos necesarios para el componente ImageComponent */
+.image-container {
+    display: inline-block;
+    width: 25%; /* Ocupa un cuarto del contenedor */
+    margin-top: 20px; /* Distancia mínima arriba */
+    position: relative;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+  }
+  
