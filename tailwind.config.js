@@ -7,8 +7,5 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-  purge: [
-    
-  ],
 }
 
