@@ -1,17 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
     extend: {},
   },
   plugins: [],
   purge: [
-    './src/App.js',
-    './src/App.css',
-    './componentes/PostContainer.js',
-    './componentes/PostComponent.js',
-    './componentes/FollowersButton.js',
-    './componentes/FollowButton.js'
+    
   ],
 }
 

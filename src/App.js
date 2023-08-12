@@ -12,11 +12,10 @@ import profile from './componentes/prueba';
 
 
 const App = () => {
-
   return (
-    <div className="app-container">
-      <div className='contenedor'>
-        <div className='parte-superior'>
+    <div className='app-container'>
+      <div className='contenedor '>
+        <div className='parte-superior bg-black'>
         <div className="centered">
             <ImageComponent imageUrl={profile.imageUrl} />
              <NombreVerificado name={profile.personName} isVerified={profile.isVerified} />
