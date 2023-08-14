@@ -1,4 +1,4 @@
-/*const profile={
+const profile={
     posts : [
     {
       name: 'Autor 1',
@@ -50,9 +50,9 @@
 
   imageUrl : 'https://www.biografiasyvidas.com/biografia/d/fotos/dicaprio.jpg',
 
-}*/
+}
 
-const profile={
+/*const profile={
     posts : [
     {
       name: 'Autor 1',
@@ -137,6 +137,6 @@ const profile={
 
   imageUrl : 'https://media.glamour.mx/photos/63e04e7632b5ef5a728586d0/16:9/w_1920,c_limit/taylor_swift_grammys.jpg',
 
-} 
+} */
 
 export default profile;
